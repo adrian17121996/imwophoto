@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 21,
     "versionPublish": "4.9.3",
     "favicon": "",
     "noImageResize": "",
@@ -39,16 +39,16 @@
             "showButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
+            "transparent": false,
             "color": "#fff",
-            "hamburgerColor": "#000"
+            "hamburgerColor": "#ffffff"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#gallery1-2\">Portafolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#form1-b\">Contacto</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/img-2540-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/8c703aa9-1b67-46ae-a5a1-18dea97a7c5b-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -60,7 +60,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">I'm wo photo<br><br></a>",
+          "brand": "<a class=\"navbar-brand text-black\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Siana<br><br></a>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
@@ -69,7 +69,7 @@
           "_anchor": "menu-0",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#000"
+              "color": "#ffffff"
             },
             ".nav-link": {
               "font-size": "20px"
@@ -88,7 +88,7 @@
             "showArrow": true,
             "contentAlign": "left",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-1563-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.51-1600x1518.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
@@ -98,9 +98,9 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.4"
+            "overlayOpacity": "0"
           },
-          "title": "I'M WO PHOTO<br>",
+          "title": "Siana<br>",
           "text": "“La fotografía es, antes que nada, una manera de mirar. No es la mirada misma”.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">¿Quién soy?</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For MAC</a>",
           "alias": "purity/components",
@@ -111,128 +111,384 @@
           "_anchor": "header4-1",
           "_styles": {
             "P": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#f2f2f2"
             }
           }
         },
         {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "40",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#d8d4d1",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img-1679-1400x2100.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "",
-          "text": "<p>“La fotografía es el único lenguaje que puede ser entendido y comprendido en todo el mundo”. Bruno Barbey</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-8"
-        },
-        {
           "_params": {
             "showBullets": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgColor": "#d8d4d1",
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#ffffff",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-665-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-665-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-721-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-721-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1107-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1107-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-04-at-15.51.35-1600x1066.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-04-at-15.51.35-1600x1066-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1183-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1183-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1195-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1195-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1161-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1161-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1227-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1227-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.51-1600x1518.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.51-1600x1518-800x759.jpg",
                 "alt": "",
                 "title": "",
                 "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.511-1066x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.511-1066x1600-800x1201.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.542-1050x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.542-1050x1600-800x1219.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.55-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.55-1600x1066-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.541-1454x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.541-1454x1600-800x880.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.54-1600x1182.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.54-1600x1182-800x591.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.509-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.509-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.5010-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.5010-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.501-683x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.501-683x1024-683x1024.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.50-1024x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.50-1024x1024-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.503-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.503-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.502-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.502-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.504-1024x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.504-1024x1024-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.508-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.508-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.505-1024x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.505-1024x1024-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.506-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.506-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.507-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.44.507-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.101-1600x1068.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.101-1600x1068-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.111-1066x1599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.111-1066x1599-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.10-1066x1599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.10-1066x1599-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.11-1066x1599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.11-1066x1599-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.112-1066x1599.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.112-1066x1599-800x1200.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.12-1600x1200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.12-1600x1200-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.47-1600x1068.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.47-1600x1068-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.482-1024x684.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.482-1024x684-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.48-1600x1068.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.48-1600x1068-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.481-1334x890.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.481-1334x890-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.09-1600x1598.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.09-1600x1598-800x799.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-f02-25-at-10.40.49-1068x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-f02-25-at-10.40.49-1068x1600-800x1199.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.08-1024x684.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.08-1024x684-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.07-1024x683.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.07-1024x683-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.50-1600x1112.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.50-1600x1112-800x556.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.49-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.49-1600x1066-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.501-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.40.501-1600x1066-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3120-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3120-2-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3129-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3129-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3128-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3128-2-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3119-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3119-2-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3130-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3130-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3125-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3125-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3414-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3414-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3413-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3413-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3431-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3431-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3440-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3440-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3437-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3437-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3458-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3458-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.41.21-413x620.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.41.21-413x620-413x620.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.041-683x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.041-683x1024-683x1024.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.061-683x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.061-683x1024-683x1024.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.04-683x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.04-683x1024-683x1024.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.062-720x480.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.062-720x480-720x480.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.06-662x1024.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-02-25-at-10.42.06-662x1024-662x1024.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
               }
             ]
           },
@@ -242,153 +498,7 @@
             "Tema"
           ],
           "_name": "gallery1",
-          "_anchor": "gallery1-2"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgColor": "#d8d4d1",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1253-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1253-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1286-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1286-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1564-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1564-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1367-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1367-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1456-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1456-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1515-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1515-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1516-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1516-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1543-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1543-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-3"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": "1",
-            "bgColor": "#d8d4d1",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1545-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1545-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1573-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1573-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1590-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1590-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1591-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1591-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1605-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1605-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1599-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1599-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1602-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1602-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-1601-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1601-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-6"
+          "_anchor": "gallery1-k"
         },
         {
           "_params": {
@@ -404,7 +514,7 @@
             "overlayOpacity": 0.5
           },
           "text": "Follow Us",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/adrian17121996?lang=es\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/imwophoto/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/iamwophoto/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
+          "icons": "    <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/siana.model/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
           "alias": "purity/components",
           "_tags": [
             "Tema"

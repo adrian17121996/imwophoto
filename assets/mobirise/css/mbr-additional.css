@@ -1,5 +1,5 @@
 #menu-0 .navbar-toggler {
-  color: #000;
+  color: #ffffff;
 }
 #menu-0 .nav-link {
   font-size: 20px;
@@ -9,6 +9,10 @@
 }
 #header4-1 P {
   text-align: left;
+  color: #ffffff;
+}
+#header4-1 H1 {
+  color: #f2f2f2;
 }
 #footer1-d P {
   color: #000000;
