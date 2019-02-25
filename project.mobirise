@@ -18,7 +18,8 @@
     "cookiesAlert": "",
     "google-analytics": "",
     "siteUrl": "undefined",
-    "сanonical-url": ""
+    "сanonical-url": "",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
